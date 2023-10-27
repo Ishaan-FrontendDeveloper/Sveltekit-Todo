@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  tailwind-forms:
+    specifier: ^1.0.6
+    version: 1.0.6
+
 devDependencies:
   '@skeletonlabs/skeleton':
     specifier: 2.3.0
@@ -1364,6 +1369,10 @@ packages:
       magic-string: 0.30.5
       periscopic: 3.1.0
     dev: true
+
+  /tailwind-forms@1.0.6:
+    resolution: {integrity: sha512-NcqVdBVu9CBj/fEDKFixAEoiQ4qUd6SeXKg4e3hWJrrqjWa20yFjAoKfdZOQ18Bk/axcTnxtV4JtMRA6FIJB2Q==}
+    dev: false
 
   /tailwind-merge@1.14.0:
     resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
